@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# React Quiz App
+![Quiz](https://github.com/bharani-developer/quiz/blob/main/public/quiz1.png)
+![Quiz](https://github.com/bharani-developer/quiz/blob/main/public/quiz2.png)
+![Quiz](https://github.com/bharani-developer/quiz/blob/main/public/quiz3.png)
+![Quiz](https://github.com/bharani-developer/quiz/blob/main/public/quiz4.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+React Quiz App is an interactive web application that presents users with 50 important React questions. The app features a timer for each question, tracks high scores, and allows users to reattempt questions to improve their scores.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Question Bank**: 50 essential React questions.
+2. **Timed Questions**: Each question comes with a timer to add a sense of urgency.
+3. **High Score Tracking**: Keeps track of the highest score achieved by the user.
+4. **Reattempt Option**: Users can reattempt questions to improve their scores.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Start the Quiz
+   - Click the "Start Quiz" button on the homepage to begin.
 
-### `npm test`
+### 2. Answer Questions
+   - Each question is displayed with multiple-choice answers.
+   - Select the correct answer before the timer runs out.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. View Score
+   - At the end of the quiz, your score will be displayed along with the high score.
 
-### `npm run build`
+### 4. Reattempt Questions
+   - You can reattempt the quiz to try and beat your previous high score.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Code Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **`src/App.js`**
+Main component that manages the state and renders the main layout.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **`src/components/Quiz.js`**
+Component to handle the quiz logic and render questions.
 
-### `npm run eject`
+### **`src/components/Question.js`**
+Component to display a single question with answer choices and timer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **`src/components/Score.js`**
+Component to display the user's current score and high score.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **`src/components/HighScore.js`**
+Component to display and manage the high score.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Components
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### App.js
+The main component where the state is managed. It includes functions to handle the quiz start, track the score, and update the high score.
 
-## Learn More
+### Quiz.js
+This component handles the quiz logic, fetching questions, managing the timer, and calculating the score.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Question.js
+This component represents a single question in the quiz. It includes answer choices and a timer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Score.js
+This component displays the current score of the user and the high score.
 
-### Code Splitting
+### HighScore.js
+This component manages and displays the high score.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+- **Frontend**: React, React Router, CSS
+- **State Management**: React Context API or Redux
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Your Name** - [bharani.developer@gmail.com](mailto:bharani.developer@gmail.com)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Project Link**: [https://github.com/bharani-developer/quiz](https://github.com/bharani-developer/quiz)
