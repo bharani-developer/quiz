@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/quiz/static/css/main.beb13c0a.css",
-    "main.js": "/quiz/static/js/main.2dae92db.js",
-    "index.html": "/quiz/index.html",
-    "main.beb13c0a.css.map": "/quiz/static/css/main.beb13c0a.css.map",
-    "main.2dae92db.js.map": "/quiz/static/js/main.2dae92db.js.map"
+    "main.css": "/bharani-developer/quiz/static/css/main.beb13c0a.css",
+    "main.js": "/bharani-developer/quiz/static/js/main.2dae92db.js",
+    "index.html": "/bharani-developer/quiz/index.html",
+    "main.beb13c0a.css.map": "/bharani-developer/quiz/static/css/main.beb13c0a.css.map",
+    "main.2dae92db.js.map": "/bharani-developer/quiz/static/js/main.2dae92db.js.map"
   },
   "entrypoints": [
     "static/css/main.beb13c0a.css",
